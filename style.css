@@ -1,0 +1,47 @@
+/* Styl dla linków */
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: #831100;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  text-decoration: underline;
+}
+
+
+
+/* Styl dla paragrafów */
+p {
+  font-family: courier;
+  border: 2px solid powderblue;
+  padding: 5px; /* Odstęp wewnętrzny */
+  margin-bottom: 20px; /* Dodaje odstęp między paragrafami */
+  display: block; 
+  width: fit-content;
+  color: red; /* Kolor tekstu */
+}
+
+/* Styl dla ciała strony */
+body {
+  background-color: rgba(42, 156, 33, 0.212);
+}
+
+/* Styl dla nagłówków */
+h1 {
+  color: brown;
+}
+/* styl dla ramek tekstu */
